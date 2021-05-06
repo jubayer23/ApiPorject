@@ -27,6 +27,9 @@ public class ApiProject {
             System.out.print("Enter a postcode: ");  
             String str= sc.nextLine();              //reads string  
             HTTPConnector.requestForAddressesUsingPostCode(str);
+            
+            
+            
  }
 }
     
